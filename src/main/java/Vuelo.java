@@ -9,6 +9,9 @@ public class Vuelo {
 	private ArrayList<Pasajero> pasajeros = new ArrayList<Pasajero>();
 	private ArrayList<Piloto> pilotos = new ArrayList<Piloto>();
 
+	public ArrayList<Pasajero> getPasajeros() {
+		return pasajeros;
+	}
 	public Date getHoraVuelo() {
 		return this.horaVuelo;
 	}
